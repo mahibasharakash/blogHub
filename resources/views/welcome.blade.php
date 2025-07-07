@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app/app.js')
 </head>
-<body>
+<body class="overflow-x-hidden">
     <div id="app"></div>
 </body>
 </html>

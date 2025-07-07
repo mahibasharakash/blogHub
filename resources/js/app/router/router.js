@@ -2,6 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import layout from "../portal/layout/layout.vue";
 import index from "../portal/pages/index.vue";
+import articles from "../portal/pages/articles.vue";
+import singleArticle from "../portal/pages/single-article.vue";
+import authors from "../portal/pages/authors.vue";
 
 import authLayout from "../auth/layout/layout.vue";
 import login from "../auth/pages/login.vue";
@@ -17,6 +20,9 @@ const routes = [
     { path: '', name: 'layout', component: layout,
         children: [
             { path: '', name: 'index', component: index },
+            { path: 'articles', name: 'articles', component: articles },
+            { path: 'article/:id', name: 'singleArticle', component: singleArticle },
+            { path: 'authors', name: 'authors', component: authors },
             { path: 'auth', name: 'authLayout', component: authLayout,
                 children: [
                     { path: 'login', name: 'login', component: login },
