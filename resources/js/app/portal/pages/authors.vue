@@ -47,148 +47,132 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-                <div data-aos="fade-right" data-aos-delay="200" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Sarah Johnson"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Sarah Johnson</h3>
-                    <p class="text-sm text-gray-600 mb-3">Tech Writer & AI Specialist</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>24 Articles</span>
-                        <span>•</span>
-                        <span>50K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="200">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Sarah Johnson" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                        <h3 class="font-bold text-gray-900 mb-2">Sarah Johnson</h3>
+                        <p class="text-sm text-gray-600 mb-3">Tech Writer & AI Specialist</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>24 Articles</span>
+                            <span>•</span>
+                            <span>50K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="400" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Michael Chen"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Michael Chen</h3>
-                    <p class="text-sm text-gray-600 mb-3">Productivity Expert</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>18 Articles</span>
-                        <span>•</span>
-                        <span>32K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="400">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Michael Chen" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                        <h3 class="font-bold text-gray-900 mb-2">Michael Chen</h3>
+                        <p class="text-sm text-gray-600 mb-3">Productivity Expert</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>18 Articles</span>
+                            <span>•</span>
+                            <span>32K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="600" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Dr. Lisa Thompson"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Dr. Lisa Thompson</h3>
-                    <p class="text-sm text-gray-600 mb-3">Health & Wellness Coach</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>31 Articles</span>
-                        <span>•</span>
-                        <span>78K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="600">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Dr. Lisa Thompson" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"/>
+                        <h3 class="font-bold text-gray-900 mb-2">Dr. Lisa Thompson</h3>
+                        <p class="text-sm text-gray-600 mb-3">Health & Wellness Coach</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>31 Articles</span>
+                            <span>•</span>
+                            <span>78K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="800" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="David Kim"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">David Kim</h3>
-                    <p class="text-sm text-gray-600 mb-3">UX Designer & Design Strategist</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>15 Articles</span>
-                        <span>•</span>
-                        <span>41K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="800">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300" alt="David Kim" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                        <h3 class="font-bold text-gray-900 mb-2">David Kim</h3>
+                        <p class="text-sm text-gray-600 mb-3">UX Designer & Design Strategist</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>15 Articles</span>
+                            <span>•</span>
+                            <span>41K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="1000" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Sarah Johnson"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Sarah Johnson</h3>
-                    <p class="text-sm text-gray-600 mb-3">Tech Writer & AI Specialist</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>24 Articles</span>
-                        <span>•</span>
-                        <span>50K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="1000">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Sarah Johnson" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"/>
+                        <h3 class="font-bold text-gray-900 mb-2">Sarah Johnson</h3>
+                        <p class="text-sm text-gray-600 mb-3">Tech Writer & AI Specialist</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>24 Articles</span>
+                            <span>•</span>
+                            <span>50K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="1200" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Michael Chen"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Michael Chen</h3>
-                    <p class="text-sm text-gray-600 mb-3">Productivity Expert</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>18 Articles</span>
-                        <span>•</span>
-                        <span>32K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="1200">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Michael Chen" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover" />
+                        <h3 class="font-bold text-gray-900 mb-2">Michael Chen</h3>
+                        <p class="text-sm text-gray-600 mb-3">Productivity Expert</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>18 Articles</span>
+                            <span>•</span>
+                            <span>32K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="1400" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Dr. Lisa Thompson"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">Dr. Lisa Thompson</h3>
-                    <p class="text-sm text-gray-600 mb-3">Health & Wellness Coach</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>31 Articles</span>
-                        <span>•</span>
-                        <span>78K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="1400">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Dr. Lisa Thompson" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"/>
+                        <h3 class="font-bold text-gray-900 mb-2">Dr. Lisa Thompson</h3>
+                        <p class="text-sm text-gray-600 mb-3">Health & Wellness Coach</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>31 Articles</span>
+                            <span>•</span>
+                            <span>78K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
-                <div data-aos="fade-right" data-aos-delay="1600" class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300">
-                    <img
-                        src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="David Kim"
-                        class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
-                    />
-                    <h3 class="font-bold text-gray-900 mb-2">David Kim</h3>
-                    <p class="text-sm text-gray-600 mb-3">UX Designer & Design Strategist</p>
-                    <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
-                        <span>15 Articles</span>
-                        <span>•</span>
-                        <span>41K Followers</span>
+                <div data-aos="fade-right" data-aos-delay="1600">
+                    <div class="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-2xl transition-all duration-300">
+                        <img src="https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=300" alt="David Kim" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover"/>
+                        <h3 class="font-bold text-gray-900 mb-2">David Kim</h3>
+                        <p class="text-sm text-gray-600 mb-3">UX Designer & Design Strategist</p>
+                        <div class="flex justify-center space-x-4 text-sm text-gray-500 mb-4">
+                            <span>15 Articles</span>
+                            <span>•</span>
+                            <span>41K Followers</span>
+                        </div>
+                        <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
+                            Follow
+                        </button>
                     </div>
-                    <button class="cursor-pointer bg-blue-500 text-white px-10 py-2 text-[12px] rounded-lg text-sm font-medium hover:bg-blue-700 duration-500">
-                        Follow
-                    </button>
                 </div>
 
             </div>

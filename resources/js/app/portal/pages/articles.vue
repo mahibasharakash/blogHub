@@ -507,8 +507,8 @@
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Flatpickr from "vue-flatpickr-component"
-import "flatpickr/dist/flatpickr.css"
+import Flatpickr from "vue-flatpickr-component";
+import "flatpickr/dist/flatpickr.css";
 
 export default {
     components: {
@@ -530,9 +530,7 @@ export default {
     },
     methods: {
 
-        goRoute(id) {
-            this.$router.push({name:'singleArticle',params:{id:id}});
-        },
+
 
     }
 }

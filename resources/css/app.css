@@ -22,3 +22,33 @@ body {
 .animate-slideDown {
     animation: slideDown 4s ease-in-out infinite;
 }
+
+.v3ti {
+    margin: 0 !important;
+    font-size: 0.875rem !important;
+    outline: 0 !important;
+    width: 100% !important;
+    padding: 0.375rem 1rem !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #e5e7eb !important;
+    background-color: #ffffff !important;
+    border-radius: 0.5rem !important;
+    transition-duration: 500ms !important;
+}
+
+.v3ti--focus {
+    box-shadow: 0 0 0 2px #3b82f6 !important;
+    border-color: #3b82f6 !important;
+    transition-duration: 500ms !important;
+}
+
+.v3ti--focus:focus {
+    box-shadow: 0 0 0 2px #3b82f6 !important;
+}
+
+.v3ti-tag {
+    background-color: #3b82f6 !important;
+    color: #ffffff !important;
+    padding: 0 5px 0 15px !important;
+}
